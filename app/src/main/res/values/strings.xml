@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Piano Tiles</string>
+    <string name="start_game">Start Game</string>
+    <string name="game_over">Game Over</string>
+    <string name="score">Score: %1$d</string>
+    <string name="high_score">High Score: %1$d</string>
+    <string name="play_again">Play Again</string>
+    <string name="exit">Exit</string>
+
+    <!-- New keys used by UI -->
+    <string name="score_zero">Score: 0</string>
+    <string name="share_via">Share via</string>
+    <string name="stats">Stats &amp; Leaderboard</string>
+    <string name="lanes">Lanes</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="beat_mode">Beat mode</string>
+    <string name="bpm">BPM</string>
+    <string name="pattern">Pattern</string>
+    <string name="seed">Seed</string>
+    <string name="haptics">Haptics</string>
+    <string name="sound">Sound</string>
+    <string name="clear">Clear</string>
+    <string name="combo">Combo: x%1$d</string>
+    <string name="paused">Paused</string>
+    <string name="tap_resume">Tap top-right to resume</string>
+    <string name="tap_restart">Tap to restart</string>
+    <string name="resume">Resume</string>
+    <string name="restart">Restart</string>
+    <string name="menu">Menu</string>
+    <string name="perfect">Perfect</string>
+    <string name="great">Great</string>
+    <string name="good">Good</string>
+    <string name="miss">Miss</string>
+
+    <!-- Lists (keys are stable English; labels are localized) -->
+    <string-array name="difficulty_keys">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="difficulty_labels">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="theme_keys">
+        <item>System</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="theme_labels">
+        <item>System</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+
+    <!-- Language switch -->
+    <string name="language">Language</string>
+    <string-array name="language_keys">
+        <item>system</item>
+        <item>en</item>
+        <item>zh</item>
+    </string-array>
+    <string-array name="language_labels">
+        <item>System</item>
+        <item>English</item>
+        <item>中文</item>
+    </string-array>
+
+    <!-- Stats formatting -->
+    <string name="stats_header">Runs: %1$d  Best: %2$d  Avg: %3$.1f  Time: %4$dm</string>
+    <string name="beat_mode_compact">Beat %1$d</string>
+    <string name="leaderboard_item">#%1$d  %2$d  (MaxCombo %3$d)  %4$d lanes · %5$s</string>
+    <string name="easy_label">Easy</string>
+    <string name="normal_label">Normal</string>
+    <string name="hard_label">Hard</string>
+</resources>

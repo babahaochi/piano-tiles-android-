@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">钢琴块</string>
+    <string name="start_game">开始游戏</string>
+    <string name="game_over">游戏结束</string>
+    <string name="score">分数：%1$d</string>
+    <string name="high_score">最高分：%1$d</string>
+    <string name="play_again">再来一次</string>
+    <string name="exit">退出</string>
+
+    <!-- New keys used by UI -->
+    <string name="score_zero">分数：0</string>
+    <string name="share_via">通过以下方式分享</string>
+    <string name="stats">统计</string>
+    <string name="lanes">轨道</string>
+    <string name="difficulty">难度</string>
+    <string name="beat_mode">节拍模式</string>
+    <string name="bpm">BPM</string>
+    <string name="pattern">固定谱面</string>
+    <string name="seed">种子</string>
+    <string name="haptics">震动</string>
+    <string name="sound">声音</string>
+    <string name="clear">清除</string>
+    <string name="combo">连击：x%1$d</string>
+    <string name="paused">已暂停</string>
+    <string name="tap_resume">点右上角继续</string>
+    <string name="tap_restart">点按屏幕重开</string>
+    <string name="resume">继续</string>
+    <string name="restart">重玩</string>
+    <string name="menu">菜单</string>
+    <string name="perfect">完美</string>
+    <string name="great">极好</string>
+    <string name="good">良好</string>
+    <string name="miss">失误</string>
+
+    <string-array name="difficulty_keys">
+        <item>Easy</item>
+        <item>Normal</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="difficulty_labels">
+        <item>简单</item>
+        <item>普通</item>
+        <item>困难</item>
+    </string-array>
+    <string-array name="theme_keys">
+        <item>System</item>
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="theme_labels">
+        <item>跟随系统</item>
+        <item>浅色</item>
+        <item>深色</item>
+    </string-array>
+
+    <string name="stats_header">局数：%1$d  最高分：%2$d  平均：%3$.1f  时长：%4$dm</string>
+    <string name="beat_mode_compact">节拍 %1$d</string>
+    <string name="leaderboard_item">#%1$d  %2$d  (最大连击 %3$d)  %4$d 轨道 · %5$s</string>
+</resources>

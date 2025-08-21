@@ -1,0 +1,2 @@
+-keep class com.example.pianotiles.** { *; }
+-dontwarn com.example.pianotiles.**

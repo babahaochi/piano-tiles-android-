@@ -1,0 +1,23 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Gradle assembleDebug",
+			"type": "shell",
+			"command": "powershell.exe",
+			"args": [
+				"-NoLogo",
+				"-NoProfile",
+				"-ExecutionPolicy",
+				"Bypass",
+				"-Command",
+				"& { Set-Location -Path 'e:\\GlassCalculator\\piano-tiles-android'; if (Test-Path .\\gradlew.bat) { .\\gradlew.bat --no-daemon assembleDebug } else { ./gradlew --no-daemon assembleDebug } }"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$gradle-tslint5"
+			],
+			"group": "build"
+		}
+	]
+}

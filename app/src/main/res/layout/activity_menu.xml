@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/bg_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/menu_card_bg"
+            android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lanes"
+            android:textColor="@color/white" />
+
+        <RadioGroup
+            android:id="@+id/rg_lanes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+            <RadioButton
+                android:id="@+id/rb_lane3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:button="@null"
+                android:background="@drawable/chip_radio_bg"
+                android:textColor="@color/white"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginRight="8dp"/>
+            <RadioButton
+                android:id="@+id/rb_lane4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:button="@null"
+                android:background="@drawable/chip_radio_bg"
+                android:textColor="@color/white"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginRight="8dp"/>
+            <RadioButton
+                android:id="@+id/rb_lane5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:button="@null"
+                android:background="@drawable/chip_radio_bg"
+                android:textColor="@color/white"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/difficulty"
+            android:textColor="@color/white" />
+
+        <RadioGroup
+            android:id="@+id/rg_diff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+            <RadioButton
+                android:id="@+id/rb_diff_easy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/easy_label"
+                android:button="@null"
+                android:background="@drawable/chip_radio_bg"
+                android:textColor="@color/white"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginRight="8dp"/>
+            <RadioButton
+                android:id="@+id/rb_diff_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/normal_label"
+                android:button="@null"
+                android:background="@drawable/chip_radio_bg"
+                android:textColor="@color/white"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"
+                android:layout_marginRight="8dp"/>
+            <RadioButton
+                android:id="@+id/rb_diff_hard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hard_label"
+                android:button="@null"
+                android:background="@drawable/chip_radio_bg"
+                android:textColor="@color/white"
+                android:paddingLeft="14dp"
+                android:paddingRight="14dp"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"/>
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/cb_use_beat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/beat_mode"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_bpm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:text="120"
+            android:textColor="@color/white"
+            android:textColorHint="#B3FFFFFF"
+            android:hint="@string/bpm"
+            android:layout_marginBottom="16dp" />
+
+        <Spinner
+            android:id="@+id/spinner_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_bg"
+            android:popupBackground="@drawable/spinner_dropdown_bg"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/language"
+            android:textColor="@color/white" />
+
+        <Spinner
+            android:id="@+id/spinner_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_bg"
+            android:popupBackground="@drawable/spinner_dropdown_bg"
+            android:layout_marginBottom="16dp" />
+
+        <CheckBox
+            android:id="@+id/cb_use_pattern"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pattern"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/et_seed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textColorHint="#B3FFFFFF"
+            android:hint="@string/seed"
+            android:layout_marginBottom="16dp" />
+
+        <CheckBox
+            android:id="@+id/cb_haptics"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/haptics"
+            android:textColor="@color/white"
+            android:checked="true"
+            android:layout_marginBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/cb_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sound"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_game"
+            android:textColor="@color/white"
+            android:background="@drawable/button_bg" />
+
+        <Button
+            android:id="@+id/btn_stats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stats"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/button_bg" />
+
+    </LinearLayout>
+
+</ScrollView>
